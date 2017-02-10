@@ -1,0 +1,12 @@
+[
+  {
+    "protocol": "unix",
+    "address": "/var/run/php-fpm.sock",
+    "location": "/status"
+  },
+  {
+    "protocol": "tcp",
+    "address": "127.0.0.1:8000",
+    "location": "/status"
+  }
+]
